@@ -4,6 +4,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 export default {
   title: 'Typography/Text Input',
   component: TextInput,
+  tags: ['autodocs'],
   args: {},
   decorators: [
     (Story) => {

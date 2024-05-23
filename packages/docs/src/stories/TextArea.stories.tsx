@@ -4,6 +4,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 export default {
   title: 'Typography/Text Area',
   component: TextArea,
+  tags: ['autodocs'],
   args: {},
   decorators: [
     (Story) => {

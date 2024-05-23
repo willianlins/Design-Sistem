@@ -6,6 +6,13 @@ export default {
   tags: ['autodocs'],
   component: Avatar,
   args: { src: 'https://github.com/willianlins.png', alt: 'Willian Lins' },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
