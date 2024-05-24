@@ -26,5 +26,12 @@ const config = {
     name: getAbsolutePath("@storybook/react-vite"),
     options: {},
   },
+  viteFinal: (config, {configType}) => {
+    if(configType === 'PRODUCTION'){
+      config.base = '/Design-Sistem'
+    }
+
+    return config
+  }
 };
 export default config;
